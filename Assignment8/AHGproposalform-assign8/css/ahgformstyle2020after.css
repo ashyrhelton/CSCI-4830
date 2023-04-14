@@ -1,0 +1,83 @@
+/* CSS */
+@charset "UTF-8";
+
+
+#formstart {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:200%;
+	font-weight:bold;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+ul {   
+	list-style:none;
+}
+
+label {
+	text-align: right;
+	margin-right: .3em;
+	width: 11em;  /* I made this deliberately wide – come up with your own optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+}
+
+label[for="proptitle"] {
+	width: 5.9em;
+	text-align: left;
+}
+
+label[for="natconfexp1_yes"] {
+	width: 2em;
+	text-align: left;
+}
+label[for="natconfexp1_no"] {
+	width: 1em;
+	text-align: left;
+}
+
+.suggest_form {
+	display: flex;
+	align-items: top;
+}
+
+input[id="proptitle"] {
+	width: 15em;
+}
+
+legend {
+	font-weight: bold;
+	font-size: larger;
+}
+
+fieldset {
+	margin-bottom: 5px;
+	padding: 1em;
+}
+
+input {
+	margin: 0.4em;
+	border-radius: 0.25em;
+}
+
+textarea {
+	margin: 0.4em;
+	border-radius: 0.25em;
+}
+
+input[type="submit"] {
+	background-color: rgb(14, 116, 217);
+	color: white;
+	outline: white;
+	font-size: large;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+	color: #FFF !important;
+	background-color: #BB3D2F !important;
+}
+
+input[aria-required="true"] {
+	background:#FF9;
+}
