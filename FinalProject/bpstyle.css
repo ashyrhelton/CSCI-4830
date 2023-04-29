@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+#navstyle:focus-visible {
+    font-size: larger; 
+}
+
+#home {
+    max-width: 1500px;
+}
+
+#motto, #bottom3 {
+    display:flex; 
+    justify-content:center;
+}
+
+#checkout {
+    display:flex; 
+    justify-content:center; 
+    margin-left:8em; 
+    margin-right:8em;
+}
+
+#bottomcontent {
+    max-width:1564px;
+}
+
+#pagelinks {
+    margin:10px;
+}
+
+#botlinks {
+    font-size:medium;
+}
+
+#setwidth {
+    width:100%;
+}
+
+#set600 {
+    width:600px;
+}
+
+#width80 {
+    width:80%;
+}
+
+#cardstyle {
+    width:350px;
+}
